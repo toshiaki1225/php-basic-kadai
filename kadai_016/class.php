@@ -25,7 +25,7 @@
     class Animal {
       private $name;
       private $height;
-      private $wight;
+      private $weight;
 
       public function __construct(string $name, int $height, int $weight){
         $this->name = $name;
@@ -41,13 +41,13 @@
     $apple = new Food('apple', 300); 
     print_r($apple);
     echo '<br>';
-    $tigger = new Animal('tigger', 90, 150);
-    print_r($tigger);
+    $tiger = new Animal('tiger', 90, 150);
+    print_r($tiger);
     echo '<br>';
 
     $apple->show_price();
     echo '<br>';
-    $tigger->show_height();
+    $tiger->show_height();
 
 
     ?>
